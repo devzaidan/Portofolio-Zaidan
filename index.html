@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Zaidan Izzatul Ilmi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div>
+      <div class="name">Zaidan Izzatul Ilmi</div>
+      <br>
+      <div class="tagline" id="typingText"></div>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#tentang">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#proyek">Project</a>
+      <a href="#kontak">Contact</a>
+      <a href="#cv">Download CV</a>
+    </nav>
+  </header>
+<br><br><br>
+  <section class="hero">
+    <div class="skills-ring">
+      <img src="img/zaidan.jpg" alt="Foto Profil" class="profile-pic">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill" style="top: -20%; left: 50%; transform: translate(-50%, -50%)" alt="HTML">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill" style="top: 0%; left: 100%; transform: translate(-50%, -50%)" alt="CSS">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="skill" style="top: 50%; left: 125%; transform: translate(-50%, -50%)" alt="JavaScript">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="skill" style="top: 50%; left: -25%; transform: translate(-50%, -50%)" alt="PHP">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="skill" style="top: 0%; left: -3%; transform: translate(-50%, -50%)" alt="MySQL">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="skill" style="top: 118%; left: 50%; transform: translate(-50%, -50%)" alt="Laravel">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="skill" style="top: 90%; left: 105%; transform: translate(-50%, -50%)" alt="React">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="skill" style="top: 90%; left: -5%; transform: translate(-50%, -50%)" alt="Node.js">
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>About Me</h2>
+    <p>Saya adalah siswa kelas 12 SMK jurusan Teknik Komputer dan Jaringan (TKJ) yang 
+      memiliki ketertarikan besar pada dunia teknologi, jaringan komputer, 
+      serta pemrograman. Saya memiliki ketertarikan besar pada bidang web development dan desain 
+      karena dapat menyalurkan kreativitas sekaligus logika dalam membuat 
+      tampilan dan sistem yang menarik. Selain itu, saya juga aktif mengasah 
+      kemampuan praktik seperti konfigurasi jaringan dan troubleshooting perangkat. 
+      Dengan semangat belajar yang tinggi, saya bertekad untuk terus berkembang 
+      dan menjadi profesional di bidang IT, Desain Grafis dan pengembangan web.</p>
+  </section>
+
+  <section id="myskills">
+    <h2>My Skills & Expertise</h2>
+    <p>Saya memiliki keahlian di bidang pengembangan web dengan menguasai teknologi seperti HTML, 
+      CSS, JavaScript, PHP, serta framework modern seperti Laravel, Node.js, dan ReactJS. Saya 
+      juga terbiasa menggunakan Figma untuk desain antarmuka dan memiliki kemampuan dalam 
+      pengelolaan basis data MySQL. Selain itu, saya menggunakan Git dan GitHub sebagai alat 
+      utama untuk version control dan kolaborasi proyek, memastikan setiap proses pengembangan 
+      berjalan teratur dan efisien. Di luar kemampuan teknis, saya memiliki kemampuan 
+      problem solving yang kuat yang membantu saya menemukan solusi efektif dalam setiap 
+      tantangan, baik di sisi desain maupun pengembangan.</p>
+  </section>
+
+  <section class="projects-section" id="proyek">
+    <h2>Selected Projects</h2>
+    <div class="projects-container" id="scroll-container">
+      <div class="project-card">
+        <div class="project-title">Project 1</div>
+        <img src="leon.jpg" width="300px" alt="">
+        <div class="project-date">Jan 2025</div>
+        <div class="project-desc">Deskripsi.</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Project 2</div>
+        <img src="leon.jpg" width="300px" alt="">
+        <div class="project-date">Feb 2025</div>
+        <div class="project-desc">Deskripsi.</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Project 3</div>
+        <img src="leon.jpg" width="300px" alt="">
+        <div class="project-date">Feb 2025</div>
+        <div class="project-desc">Deskripsi.</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Project 4</div>
+        <img src="leon.jpg" width="300px" alt="">
+        <div class="project-date">Feb 2025</div>
+        <div class="project-desc">Deskripsi.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <h2>Software & Tools That I Use</h2><br><br><br><br>
+  
+    <div class="logo-slider">
+      <div class="logo-track">
+        <img src="img/vscode2.jpeg" alt="VSCode">
+        <img src="img/git3.png" alt="Git">
+        <img src="img/git2.png" alt="GitHub">
+        <img src="img/sql.png" alt="MySQL">
+        <img src="img/postman1.png" alt="Postman">
+        <img src="img/xampp.png" alt="XAMPP">
+        <img src="img/photoshop.png" alt="Photoshop">
+        <img src="img/ilustrator.png" alt="Illustrator">
+        <img src="img/figma.png" alt="Figma">
+        <img src="img/cursor.png" alt="Cursor">
+      </div>
+    </div>
+  </section>
+  
+  <section id="kontak">
+    <h2>Contact</h2>
+    <p align="center">Anda dapat menghubungi saya melalui informasi di bawah ini</p>
+
+    <table class="contact-table" align="center">
+      <tr>
+        <th>Jenis Kontak</th>
+        <th>Informasi</th>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><a href="mailto:izzatulilmizaidan@gmail.com">izzatulilmizaidan@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td><a href="#">linkedin.com/in/unknown</a></td>
+      </tr>
+      <tr>
+        <td>Instagram</td>
+        <td><a href="https://www.instagram.com/kennizzmii?igsh=dm9zOWFzMmgza21m">instagram.com/kennizzmii</a></td>
+      </tr>
+      <tr>
+        <td>GitHub</td>
+        <td><a href="#">github.com/unknown</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>Follow me in <a href="#">GitHub</a> • <a href="#">LinkedIn</a> • <a href="#">Instagram</a></p>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
